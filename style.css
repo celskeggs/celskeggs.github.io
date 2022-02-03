@@ -1,0 +1,81 @@
+@font-face {
+	font-family: "JetBrains Mono";
+	src: url("JetBrainsMono-Regular.woff2") format("woff2");
+}
+body {
+	background-color: black;
+	color: white;
+	font-family: "JetBrains Mono", Monospace;
+}
+#silence {
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	font-size: 30pt;
+	color: #0090A0;
+}
+#title {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	top: 30px;
+	font-size: 30pt;
+	color: #888888;
+}
+#titlebox {
+	margin-top: 0px;
+}
+.box {
+	border: 1px solid #0090A0;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.name {
+	color: white;
+	margin-bottom: 20px;
+}
+.pronounce {
+	font-size: 15pt;
+	margin-top: 0;
+}
+.elaborate {
+	font-size: 20pt;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.subtitle {
+	color: #0090A0;
+	font-size: 25pt;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.recs {
+	color: #50E0F0;
+	font-size: 25pt;
+}
+.books {
+	font-size: 20pt;
+	margin-top: 0;
+}
+.book {
+	color: #DDDDDD;
+}
+.email {
+	color: #609060;
+}
+.vague {
+	color: #444444;
+	font-variant-ligatures: none;
+}
+a {
+	color: #007080;
+}
+
